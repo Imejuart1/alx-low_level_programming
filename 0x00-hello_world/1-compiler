@@ -1,2 +1,1 @@
- ^#!\s*/bin/bash 
- gcc -C $CFILE > c 
+ #!/bin/bash  
