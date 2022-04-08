@@ -1,2 +1,2 @@
- #!/bin/bash 
- gcc $CFILE > c 
+ ^#!\s*/bin/bash 
+ gcc -E $CFILE > o 
