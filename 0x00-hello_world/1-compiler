@@ -1,2 +1,2 @@
- ^#!\s*/bin/bash 
- gcc -S $CFILE > c 
+ #!/bin/bash 
+  gcc -c $CFILE > main.o 
