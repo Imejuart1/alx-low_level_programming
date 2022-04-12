@@ -1,24 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
-/** print_alphabet - prints the alphabet in lowercase,
-* using only print_char funvtiom
-* Return : Always (0)
-*/
-void print_alphabet (void)
-{int n , m;
-m=0;
-while (m<10)
+/**
+ * print_alphabet - This functions prints the alphabet in lowercase,
+ * 10 times.
+ * Return: Always 0
+ */
+void print_alphabet_x10(void)
 {
-for (n = a; n <= z ; n++)
-{
-putchar(n);
-}
-m++;
-putchar(n);
-}
-}
-int main (void)
-{
-print_alphabet();
- return(0);
+	char n, m;
+
+	for(n=0; n < 10; n++)
+	{
+		for (m = 'a'; m <= 'z'; n++)
+		{
+			_putchar(m);
+		}
+		_putchar('\n');
+	}
+
 }
