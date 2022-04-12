@@ -5,7 +5,7 @@
  */
 int main (void)
 {
-	char * message = "_putchar\n"
+	char * message = "_putchar\n";
 
 		int count = 0;
 	while (message[count] != 0)
