@@ -3,7 +3,7 @@
 /** main - Print "_putchar" while using the function putchar
  * Return(0): success
  */
-int main (void)
+int main(void)
 {
 	char * message = "_putchar\n";
 
@@ -13,6 +13,6 @@ int main (void)
 		count ++;
 	}
 	for(int i =0; i < count; ++i)
-		_putchar(message[i]);
+		putchar(message[i]);
 	return(0);
 }
