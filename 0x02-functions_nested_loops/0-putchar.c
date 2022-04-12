@@ -1,5 +1,7 @@
 #include "main.h"
-/** main - Print "_putchar" while using the function putchar
+
+/**
+ * main - Print "_putchar" while using the function putchar
  * Return(0): success
  */
 int main(void)
