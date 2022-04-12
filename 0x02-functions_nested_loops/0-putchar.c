@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-/** main- Print "_putchar" while using the function putchar
+#include "main.h"
+/** main - Print "_putchar" while using the function putchar
  * Return(0): success
  */
 int main (void)
@@ -13,6 +13,6 @@ int main (void)
 		count ++;
 	}
 	for(int i =0; i < count; ++i)
-		putchar(message[i]);
+		_putchar(message[i]);
 	return(0);
 }
