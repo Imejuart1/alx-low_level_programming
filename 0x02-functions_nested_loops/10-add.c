@@ -12,5 +12,4 @@ int add(int i, int l)
 
 	n = i + l;
 	return (n);
-}
-		
+}		
