@@ -7,7 +7,6 @@
 int main(void)
 {
 	unsigned int i, j, y, k, s;
-	
 	i = 1;
 	j = 2;
 	y = 3;
