@@ -1,1 +1,1 @@
-Meju
+pointers and array
