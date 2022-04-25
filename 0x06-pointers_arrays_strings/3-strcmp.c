@@ -1,23 +1,27 @@
 #include "main.h"
 
 /**
- * _strncpy - copies the string pointed to by src.
- * @dest: pointer to the buffer.
- * @src: pointer to the source string.
- * @n: length of src.
- * Return: char
+ * _strcmp - compares two strings
+ * @s1: string 1
+ * @s2: string 2
+ * Return: 1 if true, 0 if false
  */
 
-char *_strncpy(char *dest, char *src, int n)
+int _strcmp(char *s1, char *s2)
 {
-int i;
 
-for (i = 0; i < n && src[i] != 0; i++)
+int equal = 0;
+
+while (*s1)
 {
-dest[i] = src[i];
+if (*s1 != *s2)
+{
+equal = ((int)*s1 - 48) - ((int)*s2 - 48);
+break;
 }
-for (; i < n; i++)
-dest[i] = 0;
+s1++;
+s2++;
+}
 
-return (dest);
+return (equal);
 }
