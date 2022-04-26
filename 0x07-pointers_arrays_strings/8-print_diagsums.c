@@ -18,6 +18,5 @@ sum2 += a[size - i - 1];
 a += size;
 }
 printf("%d, ", sum1);
-printf("%d
-", sum2);
+printf("%d\n", sum2);
 }
