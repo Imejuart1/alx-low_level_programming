@@ -10,11 +10,10 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-.0-memset.c.swp unsigned int i;
-
-.0-memset.c.swp for (i = 0; n > 0; i++, n--)
-.0-memset.c.swp {
-.0-memset.c.swp .0-memset.c.swp s[i] = b;
-.0-memset.c.swp }
-.0-memset.c.swp return (s);
+	unsigned int i;
+	for (i = 0; n > 0; i++, n--)
+	{
+		s[i] = b;
+	}
+	return (s);
 }
