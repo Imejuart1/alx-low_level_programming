@@ -1,1 +1,1 @@
-more pointers and array
+arg and argc
