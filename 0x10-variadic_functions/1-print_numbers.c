@@ -17,10 +17,10 @@ unsigned int i;
 va_start(list, n);
 for (i = 0; i < n; i++)
 {
-printf("%i", va_arg(list, int));
-if (i != n - 1 && separator != NULL)
-printf("%s", separator);
+	printf("%i", va_arg(list, int));
+	if (i != n - 1 && separator != NULL)
+		printf("%s", separator);
 }
 va_end(list);
-putchar(n);
+putchar('\n');
 }
